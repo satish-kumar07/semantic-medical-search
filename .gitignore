@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Installer logs
+pipen-debug.log*
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints
+
+# Python testing
+*.pytest_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy / Pyre
+.mypy_cache/
+.pyre/
+
+# Logs and databases
+*.log
+logs/
+*.sqlite3
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+dist/
+build/
+
+# Secrets and environment
+.env
+.env.*
+
+
+
+# Misc caches
+.cache/
+pip-wheel-metadata/
+
+# Ignore local editor swap/temp files
+*~
+*.swp
+
+medassist_outputs/
+*.safetensors
+*.bin
