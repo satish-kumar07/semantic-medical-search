@@ -1,4 +1,5 @@
-- **Overview**: This document describes the analysis and retrieval-generation pipeline implemented in the notebook [medassists.ipynb](medassists.ipynb). The notebook builds a retrieval-augmented medical assistant from the PubMedQA unlabeled dataset, encodes passages with a SentenceTransformer, indexes with FAISS, and uses a seq2seq model (FLAN-T5) to generate human-friendly answers.
+## Overview: 
+This document describes the analysis and retrieval-generation pipeline implemented in the notebook [medassists.ipynb](medassists.ipynb). The notebook builds a retrieval-augmented medical assistant from the PubMedQA unlabeled dataset, encodes passages with a SentenceTransformer, indexes with FAISS, and uses a seq2seq model (FLAN-T5) to generate human-friendly answers.
 
 **Purpose**: Provide a runnable, end-to-end demo showing how to:
 - Build a corpus from the `pubmed_qa` dataset
